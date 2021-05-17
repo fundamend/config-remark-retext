@@ -1,6 +1,6 @@
 {
 	"name": "@fundamend/config-remark-retext",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"dependencies": {
 		"@fundamend/config-retext": "*",
 		"remark-retext": "^4.0.0"
