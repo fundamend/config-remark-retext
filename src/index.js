@@ -1,10 +1,10 @@
-const retext = require('remark-retext');
-const retextPreset = require('@fundamend/config-retext');
+import retext from 'remark-retext';
+import retextPreset from '@fundamend/config-retext';
 
 const plugins = [[retext, retextPreset]];
 const settings = {};
 
-module.exports = {
+export default {
 	plugins: plugins,
 	settings: settings
 };
